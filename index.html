@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My Machine Learning Model</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <button onclick="showPopup()">Click Me for more information</button>
+
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <p>
+          This project aims to raise awareness about sustainable practices and
+          make recycling easier for individuals by providing a simple AI-based
+          tool that encourages proper waste sorting and environmental
+          responsibility.
+        </p>
+        <button onclick="closePopup()">Close</button>
+      </div>
+    </div>
+    <div class="bubble">
+      <h1>Fabiha's Machine Learning Model - Image Edition 📷</h1>
+      <p>
+        <img
+          src="vecteezy_plant-logo-icon-design-vector_7344882.jpg"
+          width="40ppx
+        "
+        />
+        <i><b>EcoSort:</b></i> <br />
+        EcoSort is an image classification model designed to identify whether
+        everyday items are biodegradable or recyclable. This project aims to
+        raise awareness about sustainable practices and make recycling easier
+        for individuals by providing a simple AI-based tool that encourages
+        proper waste sorting and environmental responsibility.
+      </p>
+      <button type="button" onclick="init()" id="start">Start!</button>
+
+      <div id="webcam-container"></div>
+      <!-- Camera for testing data -->
+      <div id="label-container"></div>
+      <!-- Show the predicted label -->
+    </div>
+
+    <div class="bubble">
+      <h1>About the Creator</h1>
+      <p>Assalamua'alaikum!</p>
+      <p>
+        This is Fabiha Nurjina. I am a high school student who is interested in
+        technology, artificial intelligence, and environmental sustainability. I
+        enjoy exploring how innovative technologies can be used to solve
+        real-world problems and create positive social impact. For this project,
+        I developed an image classification model that can identify
+        biodegradable and recyclable items.
+      </p>
+      <img
+        src="641458311_122099658561284108_5375903491496869195_n.jpg"
+        width="150ppx"
+        class="center-img"
+      />
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
