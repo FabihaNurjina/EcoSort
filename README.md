@@ -1,49 +1,97 @@
-# Your Passion Project Guide
+# ♻️ EcoSort
 
-Welcome to your Passion Project! In this project, you'll combine the power of Google's Teachable Machine with web design to create an interactive application that recognizes images based on your custom-trained model. This is your chance to explore something you're passionate about while learning about AI and web development!
+An AI-powered waste classification web application built using **HTML**, **CSS**, **JavaScript**, and **Google Teachable Machine**. EcoSort helps users identify different types of waste from images, encouraging proper waste disposal and promoting environmental sustainability.
 
-## Getting Started
+## 🌍 About the Project
 
-Press the `Start!` button in the Preview panel to see your model in action! The model included in the template has been trained to recognize mugs, pens, and glasses. Note: It may take a few seconds to load. Press the refresh button in the Preview panel to close the camera.
+EcoSort uses a machine learning model trained with **Google Teachable Machine** to classify waste items from images. Users can upload an image or use their webcam (if enabled) to receive an instant prediction of the waste category.
 
-## Passion Project Checklist
+The project aims to make waste sorting simple, interactive, and accessible while raising awareness about recycling and environmental conservation.
 
-- [ ] Fork the Passion Project template
-- [ ] Decide on your Passion Project idea
-- [ ] Train and test your model until you're satisfied with the results 
-- [ ] Export your trained model and add the link to the `script.js` file
-- [ ] Update the HTML to reflect your project idea  
-- [ ] Enhance the CSS for styling and presentation
-- [ ] *Choose a way to level up your project from the [How-To Guide](https://kodewithklossy.notion.site/Participant-How-To-Guide-1142fd98aeb4806ca0b6dd68fa211acb)*
-- [ ] Complete the Project Showcase Prep
-- [ ] Showcase your project
+## ✨ Features
 
-## Project Showcase Prep
+- 🤖 AI-powered waste classification
+- 📷 Upload an image for prediction
+- ⚡ Instant results using Teachable Machine
+- 🌱 Promotes proper waste segregation
+- 💻 Responsive and user-friendly interface
+- 🎨 Clean UI built with HTML and CSS
 
-1. **Why did you choose this project topic?**
-    - Write your answer here.
-2. **Walk us through your project! List bullet points of the highlights.**
-    - Write your answer here.
-3. **What are some wins and challenges you experienced?**
-    - Write your answer here.
-4. **What might you want to add or change if you were to continue working on this project?**
-    - Write your answer here.
-5. **What did you learn about how AI systems work and how did that change the way you thought about or built your project?**
-    - Write your answer here.
-6. **Anything else you'd like to share?**
-    - Write your answer here.
+## 🛠️ Technologies Used
 
-## Tips for Success
+- HTML5
+- CSS3
+- JavaScript
+- Google Teachable Machine
+- TensorFlow.js
 
-- **Start simple**: Begin with 2-3 classes for your model before adding more complexity
-- **Quality over quantity**: 50-100 good images per class works better than 500 rushed ones
-- **Test thoroughly**: Make sure your model works with different lighting and angles
-- **Be creative**: This is YOUR passion project; make it unique and personal!
+## 📂 Project Structure
 
-## Need Help?
+```
+EcoSort/
+│
+├── index.html
+├── style.css
+├── script.js
+├── model/
+│   ├── model.json
+│   ├── metadata.json
+│   └── weights.bin
+├── assets/
+│   └── images/
+└── README.md
+```
 
-- Use the links and resources provided
-- Ask your peers or an IA for feedback and ideas
-- Don't be afraid to experiment and iterate
+---
 
-We can't wait to see what you create! 🌟
+## 🚀 How to Run
+
+1. Clone the repository.
+
+```bash
+git clone https://github.com/yourusername/EcoSort.git
+```
+
+2. Open the project folder.
+
+3. Open **index.html** in your browser.
+
+> If the model doesn't load locally due to browser security restrictions, run the project using a local server such as **VS Code Live Server**.
+
+---
+
+## 🧠 How It Works
+
+1. The user uploads an image.
+2. JavaScript loads the trained Teachable Machine model.
+3. TensorFlow.js processes the image.
+4. The model predicts the waste category.
+5. The predicted class and confidence score are displayed on the webpage.
+
+## 🎯 Future Improvements
+
+- Webcam support
+- More waste categories
+- Recycling tips based on prediction
+- Dark mode
+- Mobile optimization
+- Multi-language support
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork this repository.
+2. Create a new branch.
+3. Commit your changes.
+4. Submit a Pull Request.
+
+## 👩‍💻 Author
+
+**Fabiha Nurjina**
+
+Interested in Artificial Intelligence, Environmental Technology, and Web Development.
+
+---
+
+### 🌿 *"Sort Smart. Recycle Right. Protect Our Planet."*
