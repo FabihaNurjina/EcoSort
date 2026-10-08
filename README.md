@@ -2,22 +2,22 @@
 
 An AI-powered waste classification web application built using **HTML**, **CSS**, **JavaScript**, and **Google Teachable Machine**. EcoSort helps users identify different types of waste from images, encouraging proper waste disposal and promoting environmental sustainability.
 
-## 🌍 About the Project
+##  About the Project
 
 EcoSort uses a machine learning model trained with **Google Teachable Machine** to classify waste items from images. Users can upload an image or use their webcam (if enabled) to receive an instant prediction of the waste category.
 
 The project aims to make waste sorting simple, interactive, and accessible while raising awareness about recycling and environmental conservation.
 
-## ✨ Features
+##  Features
 
-- 🤖 AI-powered waste classification
-- 📷 Upload an image for prediction
-- ⚡ Instant results using Teachable Machine
-- 🌱 Promotes proper waste segregation
-- 💻 Responsive and user-friendly interface
-- 🎨 Clean UI built with HTML and CSS
+-  AI-powered waste classification
+-  Upload an image for prediction
+-  Instant results using Teachable Machine
+-  Promotes proper waste segregation
+-  Responsive and user-friendly interface
+-  Clean UI built with HTML and CSS
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
@@ -25,7 +25,7 @@ The project aims to make waste sorting simple, interactive, and accessible while
 - Google Teachable Machine
 - TensorFlow.js
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 EcoSort/
@@ -44,7 +44,7 @@ EcoSort/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repository.
 
@@ -60,7 +60,7 @@ git clone https://github.com/yourusername/EcoSort.git
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. The user uploads an image.
 2. JavaScript loads the trained Teachable Machine model.
@@ -68,7 +68,7 @@ git clone https://github.com/yourusername/EcoSort.git
 4. The model predicts the waste category.
 5. The predicted class and confidence score are displayed on the webpage.
 
-## 🎯 Future Improvements
+##  Future Improvements
 
 - Webcam support
 - More waste categories
@@ -77,7 +77,7 @@ git clone https://github.com/yourusername/EcoSort.git
 - Mobile optimization
 - Multi-language support
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome!
 
@@ -86,11 +86,9 @@ Contributions are welcome!
 3. Commit your changes.
 4. Submit a Pull Request.
 
-## 👩‍💻 Author
+##  Author
 
 **Fabiha Nurjina**
-
-Interested in Artificial Intelligence, Environmental Technology, and Web Development.
 
 ---
 
